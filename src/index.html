@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@'
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -6,7 +7,21 @@
   <title>PulsoQ</title>
 </head>
 <body>
-  <h1>PulsoQ</h1>
-  <p>Aplicación web de triage digital para salas de urgencias.</p>
+  <header>
+    <h1>PulsoQ</h1>
+    <h2>Cada segundo cuenta: prioriza a quien más lo necesita</h2>
+  </header>
+
+  <main>
+    <section>
+      <p>
+        PulsoQ es una aplicación web de triage digital que ayuda al personal de urgencias
+        a registrar signos vitales, clasificar a los pacientes por nivel de gravedad
+        y mostrar una fila de atención ordenada en tiempo real.
+      </p>
+      <p><strong>Descubre cómo PulsoQ puede agilizar la atención en tu hospital.</strong></p>
+    </section>
+  </main>
 </body>
 </html>
+'@ | Set-Content -Encoding UTF8 src\index.html
